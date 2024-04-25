@@ -1,0 +1,420 @@
+body{
+ background-image: url('../assets/images/fondo pagina web.png'); 
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100%;
+ opacity: 1;
+ margin: 0;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ color: aliceblue;
+ max-width: 100%;
+ overflow-x: hidden;
+ font-size: 16px; 
+}
+main {
+    margin-bottom: 700px; 
+}
+.header{
+    width: 100%;
+    height: 5.2vw;
+    border: 2px solid gray;
+    top: 0;
+    background-color: rgba(128, 128, 128, 0.7);
+    position: sticky;
+    z-index: 2;
+}
+.logo{
+    position: relative;
+    width: 100px;
+    max-width: 100%;
+}
+.title{
+    max-width: 100%;
+    margin-right: 0;
+    color: rgb(250, 249, 249);
+    position: relative;
+    left: 6vw;
+    top: -6vw;
+    font-size: 2.7rem;
+}  
+.links{
+    left: 25vw;
+    font-size: 1.5rem;
+    top: -10.5vw;
+    color: antiquewhite;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}  
+.links:hover{
+    transform: scale(1.1);
+    display: inline-block;
+    color: rgb(161, 194, 71);
+}
+.presentacion{
+    display: inline-block;
+    position: relative;
+    background-color: rgb(53, 172, 53,0.5);
+    left: 32%;
+    font-family: 'Caveat', cursive;
+    font-size: 3.5vw;
+    top: 6vw;
+
+}
+
+.frasePresentacion{
+    display: inline-block;
+    position: relative;
+    left: 15vw;
+    top: 4vw;
+    background-color: rgb(53, 172, 53,0.5);
+    font-family: 'Caveat', cursive;
+    font-size: 3.4vw;
+
+
+}
+
+.title-2{
+    position: relative;
+    text-align: left;
+    top: 32vw;
+    width: 70vw;
+    margin-left: 13vw;
+}
+.box-1{
+    top: 32vw;
+    position: relative;
+    width: 37vw;
+    right: -2vw;
+
+}
+.p-1{
+    font-size: 1.3vw;
+    text-align: justify;
+}
+.box1-2{
+    top: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title-3{
+    position: relative;
+    text-align: center;
+    top: 48vw;
+
+}
+.imagen-1{
+    position: relative;
+    top:15px;
+    width: 30vw;
+    left:5vw;
+    border-radius: 20px;
+}
+.box-2{
+    position: relative;
+    top: 600px;
+    display: inline-block;
+    font-size: 1.4vw;
+    background-image: url('../assets/images/medio_ambiente_apertura_746x419.jpeg');
+    background-size: 110%;
+    padding: 10px;
+    background-color: rgba(179, 187, 194, 0.5);
+    border-radius: 20px;
+    font-family: 'Caveat', cursive;
+}
+.personasInscritas{
+    text-align: center;
+    font-size: 3.3rem;
+}
+.box1-3{
+    position: relative;
+    right: -57vw;
+    background-image: url('../assets/images/Captura-de-pantalla-2019-12-04-a-las-12.43.10-1310x824.png')
+}
+.footer{
+    position: relative;
+    width: 100%;
+    height: 6vw;
+    border: 2px solid gray;
+    bottom: 0;
+    text-align: center;
+}
+.title2-1{
+    left: 39vw;
+    top: 2vw;
+}
+.box2-1{
+    top: 10vw;
+    left: 50px;
+}
+.title2-2{
+ top: 0.8vw;
+ left: -4vw;
+}
+.box2-2{
+    top: 13vw;
+}
+.video_r0{
+    position: relative;
+    left: 900px;
+    bottom: 400px;
+    margin-right: auto;
+    width:604.8px;
+    height:340.2px;
+}
+.links2{
+    left: 30vw;
+}
+.links3{
+    left: 35vw;
+}
+.links4{
+    left: 40vw;
+}
+.links4{
+    left: 40vw;
+}
+.title-4{
+    position: relative;
+    text-align: center;
+    top: 32vw;
+}
+.box1-4{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box5-1{
+    top: 200px;
+    left: 25vw;
+    width: 1000px;
+}
+.title5-1{
+    left: 30vw;
+}
+.imagen5{
+    left: 40vw;
+    top: 12vw;
+}
+.title2-3{
+    top: -16vw;
+    left: -5vw;
+}
+.p2-1{
+    position: relative;
+    top: -16vw;
+}
+.imagen2-1{
+    position: relative;
+    top:-50vw;
+    width: 45vw;
+    left:45vw;
+    border-radius: 20px;
+}
+.title2-4{
+    top: -40vw;
+    left: 33vw;
+}
+.box2-4{
+    top: -40vw;
+    left: 30vw;
+    max-height: 800px;
+}
+.title2-5{
+    top:  0vw;
+    left: -9vw;
+}
+.imagen2_2{
+    position: relative;
+    width: 25vw;
+    border-radius: 20px;
+    
+}
+.box2-5{
+    top:-40vw;
+    width: 22vw;
+    left:-28.5vw;
+}
+.box2-6{
+    top: -65vw;
+    left: 40vw;
+    width: 22vw;
+}
+.main2{
+    max-height: 3000px;
+
+}
+.box2-3{
+    max-height: 1400px;
+}
+.formulario{
+    position: relative;
+    width: 60vw;
+    top: 7vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3vw;
+    background-color: rgb(108, 196, 19,0.2);
+    border-radius: 24px;
+}
+.title3-1{
+    top: 1vw;
+}
+label {
+    font-size: 22px;
+    display: block; 
+}
+.label{
+    margin-bottom: 2vw;
+}
+input,
+select{
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #070505;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    margin-top: 50px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 40%;
+    height: 100px;
+    font-size: 30px;
+}
+.checkbox{
+  margin-top: 0;
+}
+.labelcheck2 {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 16px;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+    border: 2px solid #2196F3;
+    border-radius: 5px;
+}
+
+
+input[type="checkbox"]:checked + .checkmark2:after {
+    content: "";
+    position: absolute;
+    left: 9px;
+    top: 5px;
+    width: 7px;
+    height: 15px;
+    border: solid #2196F3;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+
+input[type="checkbox"]:checked + .checkmark2 {
+    background-color: #2196F3;
+}
+input[type="radio"]{
+    position: relative;
+    top: 1.7vw;
+}
+.imagen4-1{
+    float: right;
+    width: 40%;
+}
+.imagen5-1{
+    border-radius: 14px;
+}
+.box5-2{
+    top: -20vw;
+    left: 25vw;
+    width: 1000px;
+}
+.title5-2{
+    top: 2vw;
+    left: 270px;
+}
+.imagen5-2{
+    position: relative;
+    width: 40vw;
+    left: 30%;
+    top: -15vw;
+    border-radius: 15px;
+}
+.box5-3{
+    top: -15vw;
+    left: 25vw;
+    width: 1000px;
+}
+.box5-4{
+    top: -10vw;
+    left: 25vw;
+    width: 1000px;
+}
+.imagen5-3{
+    position: relative;
+    top: -5vw;
+    left: 32vw;
+    border-radius: 20px;
+}
+.box3-1{
+    margin-left : 4.5vw;
+    margin-bottom: 3vw;
+    position: relative;
+    top: 10vw;
+    width: 40vw;
+    left: 2vw;
+
+}
+.imagen3-1{
+    width: 20vw;
+    border-radius: 20px;
+}	
+.box3-2{
+
+    order: -1;
+}
+.box3-3{
+
+    order: 1;
+}	
+.box3-4{
+    order: 2;
+}
+.main3{
+    max-height: 1000px;
+}
+.flex3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.title3_1{
+    left: 43vw;
+
+}
+.labelcheck3{
+    display: block;
+    margin-bottom: 8px;
+}

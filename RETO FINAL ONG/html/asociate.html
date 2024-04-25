@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="../css/index.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicons/favicon-16x16.png">
+        <link rel="manifest" href="../assets/favicons/site.webmanifest">
+        <link rel="mask-icon" href="../assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <header class="header">
+        <a href="index.html" ><img class="logo" src="../assets/images/FOTO-ONG-modified.png" alt=""></a>
+        <h1 class="title">VIDA VERDE</h1>
+        <nav>
+            <a class="title links" href="campanyas.html">CAMPAÑAS</a>
+            <a class="title links links2" href="noticias.html">NOTICIAS</a>
+            <a class="title links links3" href="asociate.html">ASÓCIATE</a>
+            <a class="title links links4" href="eventos.html">EVENTOS</a>  
+        </nav>  
+    </header>
+    <main>  
+        <h1 class="presentacion title3-1">ÚNETE A NUESTRA LUCHA</h1>
+        <form class="formulario" action="/procesar_formulario.php" method="post">
+        <img class="imagen4-1" src="../assets/images/cerrar-brote-suelo.jpg" alt="imagen">   
+        <div class="label">
+            <label class="p-1" for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="label">
+            <label class="p-1" for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" required>
+        </div>
+        <div class="label">
+            <label class="p-1">Tratamiento:</label>
+            <input type="radio" id="sr" name="tratamiento" value="Sr." required>
+            <label for="sr">Sr.</label>
+        
+            <input type="radio" id="sra" name="tratamiento" value="Sra." required>
+            <label for="sra">Sra.</label>
+        
+            <input type="radio" id="sinTratamiento" name="tratamiento" value="Sense tractament" required>
+            <label for="sinTratamiento">Sense tractament</label>
+        </div>
+        <div class="label">
+            <label class="p-1" for="codi_postal">Código Postal:</label>
+            <input type="text" id="codi_postal" name="codi_postal" required>
+        </div>
+        <div class="label">
+            <label class="p-1" for="telefon">Teléfono:</label>
+            <input type="tel" id="telefon" name="telefon">
+        </div>
+        <div class="label">
+            <label class="p-1" for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="label">        
+            <label class="p-1" for="quota_soci">Quota de Soci:</label>
+            <select id="quota_soci" name="quota_soci" required>
+                <option value="50">50€</option>
+                <option value="100">100€</option>
+                <option value="150">150€</option>
+            </select>
+        </div>
+            <label class="labelcheck2">
+                <input type="checkbox" name="politica_privacitat" value="acceptat" required>
+                <span class="checkmark2"></span>
+                Acepto la política de privacidad
+            </label>
+            
+            <label class="labelcheck2">
+                <input type="checkbox" name="subscriure_newsletter" value="subscrit">
+                <span class="checkmark2"></span>
+                Suscribirme a la newsletter
+            </label>
+            <label class="labelcheck2">
+                <input type="checkbox" name="subscriure_newsletter" value="subscrit">
+                <span class="checkmark2"></span>
+                Medio Ambiente
+            </label>
+            <label class="labelcheck2">
+                <input type="checkbox" name="subscriure_newsletter" value="subscrit">
+                <span class="checkmark2"></span>
+                Sostenibilidad
+            </label>
+            <label class="labelcheck2">
+                <input type="checkbox" name="subscriure_newsletter" value="subscrit">
+                <span class="checkmark2"></span>
+                Conservación
+            </label>
+            <label class="labelcheck2">
+                <input type="checkbox" name="subscriure_newsletter" value="subscrit">
+                <span class="checkmark2"></span>
+                Cambio Climático
+            </label>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+    <footer class="footer">
+        <p class="infofooter">2023 VIDA VERDE · Política de privacidad</p>
+        <p class="infofooter">asociate a nosotros</p>
+    </footer>
+</body>
+</html>
